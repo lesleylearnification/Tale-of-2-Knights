@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
+<title id="t">Royal Investiture</title><desc id="d">THE NEXT PAGE IS NOT YET WRITTEN</desc>
+<defs>
+ <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
+ <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
+ <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
+</defs>
+<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
+<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
+<path d="M48 606 Q260 585 520 606 T1150 606" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
+<g stroke="#2a1a12" stroke-width="4" fill="none" filter="url(#rough)"><path d="M100 510h960M180 510V240h170v270M220 240v-75h90v75M430 510V180h220v330M490 180v-90h100v90M730 510V250h180v260M775 250v-80h90v80"/><path d="M340 510q180-190 370 0"/><circle cx="525" cy="350" r="40"/><path d="M525 390v120M525 430l-70 55M525 430l70 55"/></g><g fill="#aa7a2c" fill-opacity=".14"><path d="M430 510V180h220v330z"/></g><g transform="translate(1040 130)" stroke="#76533a" fill="none" opacity=".72"><circle r="67" stroke-width="2"/><circle r="49"/><path d="M0-78V78M-78 0H78M-54-54L54 54M54-54L-54 54"/><path d="M0-60l10 44-10 16-10-16z" fill="#8c3329" fill-opacity=".18"/></g><g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="72" y="570">the ceremony crowns a knight; the choices reveal one</text></g>
+<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">Royal Investiture</text>
+<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">THE NEXT PAGE IS NOT YET WRITTEN</text>
+<text x="970" y="625" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
+</svg>

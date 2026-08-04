@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
+<title id="t">The Royal Stables</title><desc id="d">HORSE ANATOMY · TACK · PATIENCE</desc>
+<defs>
+ <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
+ <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
+ <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
+</defs>
+<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
+<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
+<path d="M48 606 Q260 585 520 606 T1150 606" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
+<g stroke="#2a1a12" stroke-width="4" fill="none" filter="url(#rough)"><path d="M210 390q130-150 340-55l140-80 70 45-80 95q-45 120-185 115H270q-100-10-60-120z"/><path d="M320 495l-30 100M425 500l10 95M560 490l35 100M655 440l80 110"/><path d="M670 285l45-105 65 85"/></g><g stroke="#8c3329" stroke-width="2"><path d="M240 350h500M380 270v280M600 270v280" stroke-dasharray="6 6"/></g><g transform="translate(1040 130)" stroke="#76533a" fill="none" opacity=".72"><circle r="67" stroke-width="2"/><circle r="49"/><path d="M0-78V78M-78 0H78M-54-54L54 54M54-54L-54 54"/><path d="M0-60l10 44-10 16-10-16z" fill="#8c3329" fill-opacity=".18"/></g><g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="70" y="570">field note: every room teaches what its keeper values</text></g>
+<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">The Royal Stables</text>
+<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">HORSE ANATOMY · TACK · PATIENCE</text>
+<text x="970" y="625" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
+</svg>
