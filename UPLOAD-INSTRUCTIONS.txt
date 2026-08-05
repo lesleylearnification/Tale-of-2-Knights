@@ -1,0 +1,7 @@
+BATCH 1 UPLOAD INSTRUCTIONS
+
+1. In your GitHub repository, replace the existing index.html with this index.html.
+2. Replace the existing style.css with this style.css.
+3. Do not delete or change game.js or the assets folder.
+4. Commit the two replacements and wait for GitHub Pages to redeploy.
+5. Open the live game and press Ctrl+Shift+R to force-refresh cached files.
