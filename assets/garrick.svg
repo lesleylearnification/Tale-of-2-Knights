@@ -1,18 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="t d">
-<title id="t">Sir Garrick</title><desc id="d">broad shoulders · polished authority</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 656 Q260 635 520 656 T1150 656" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g transform="translate(0 10)" filter="url(#rough)" stroke="#2a1a12" stroke-width="4" fill="none"><path d="M320 190c-75 0-130 62-130 140 0 92 72 160 130 160s130-68 130-160c0-78-55-140-130-140z" fill="#8c3329" fill-opacity=".09"/>M195 520q125-90 250 0v95H195z<path d="M218 256q102-110 204 0"/><path d="M245 325q75 30 150 0"/><path d="M210 470l-90 110M430 470l90 110"/></g>
-<g stroke="#8c3329" stroke-width="1.5" opacity=".6" fill="none"><circle cx="320" cy="330" r="154"/><path d="M130 330h380M320 145v370" stroke-dasharray="6 7"/></g>
-<g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="480" y="250">observe posture before promise</text><text x="480" y="280">status is not stewardship</text><text x="80" y="560">study no. 7</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">Sir Garrick</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">broad shoulders · polished authority</text>
-<text x="470" y="675" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img"><title>Sir Garrick</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="700" height="700" fill="url(#paper)"/><rect width="700" height="700" fill="url(#grain)"/><path d="M20 24H680V676H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H666V662H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">Sir Garrick</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">celebrated knight · polished authority</text><g filter="url(#rough)" stroke="#28180f" stroke-width="4" stroke-linejoin="round"><path d="M175 650q10-177 155-196q146 19 165 196" fill="#273747"/><path d="M189 525l-82 91M471 525l82 91" stroke="#28180f" stroke-width="22"/><path d="M215 488q116 68 231 0" fill="none" stroke="#b8862d" stroke-width="15"/><path d="M284 462l45 64l46-64" fill="#842c22" stroke="#28180f" stroke-width="4"/><path d="M330 196c-54 0-94 44-94 104 0 67 45 118 94 118s94-51 94-118c0-60-40-104-94-104z" fill="#c99568"/><path d="M246 265q83-105 168-5q-18-94-92-92q-64 2-76 97" fill="#3b271d"/><path d="M255 340q73 82 150 0q-20 118-76 118q-56 0-74-118" fill="#4a3022"/></g><g fill="none" stroke="#842c22" stroke-width="1.4" opacity=".55"><circle cx="330" cy="300" r="152"/><path d="M115 300h430M330 130v385" stroke-dasharray="7 8"/></g><g fill="#6d4326" font-family="Georgia,serif" font-style="italic" font-size="15"><text x="468" y="230">study of bearing</text><text x="470" y="255">gesture reveals intent</text><text x="55" y="660">folio characteris</text></g></svg>

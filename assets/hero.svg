@@ -1,25 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
-<title id="t">A Tale of Two Knights</title><desc id="d">THE TRIAL OF DIRECTION</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 606 Q260 585 520 606 T1150 606" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g transform="translate(1040 130)" stroke="#76533a" fill="none" opacity=".72"><circle r="67" stroke-width="2"/><circle r="49"/><path d="M0-78V78M-78 0H78M-54-54L54 54M54-54L-54 54"/><path d="M0-60l10 44-10 16-10-16z" fill="#8c3329" fill-opacity=".18"/></g><g filter="url(#rough)" stroke="#2a1a12" stroke-width="3" fill="none">
-<path d="M105 490L165 235 230 490M175 315h45M145 390h90"/>
-<path d="M245 490V285h120v205M270 285v-58h70v58M260 352h90M285 410h45"/>
-<path d="M390 490L430 200h80l40 290M445 260h52M430 350h80M448 425h48"/>
-<path d="M565 490V310h140v180M595 310v-68h80v68M590 370h90M615 430h46"/>
-<path d="M720 490L770 270h95l48 220M795 270v-70M765 350h110M790 430h65"/>
-<path d="M90 490H930"/>
-<path d="M130 520 Q500 470 900 525" stroke="#8c3329" stroke-width="2" stroke-dasharray="10 8"/>
-</g><g fill="url(#hatch)" opacity=".65"><path d="M108 490L165 235 230 490Z"/><path d="M390 490L430 200h80l40 290Z"/></g>
-<g stroke="#8c3329" fill="none" opacity=".65"><path d="M165 185v320M430 160v345M770 225v280" stroke-dasharray="6 6"/><path d="M80 540h850"/></g><g fill="#76533a" font-family="Georgia,serif" font-style="italic" font-size="15" opacity=".82"><text x="820" y="220">measure the wall twice</text><text x="820" y="245">before trusting the gate</text><text x="72" y="580">a road withheld is still a decision</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">A Tale of Two Knights</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">THE TRIAL OF DIRECTION</text>
-<text x="970" y="625" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img"><title>A Tale of Two Knights</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="1200" height="650" fill="url(#paper)"/><rect width="1200" height="650" fill="url(#grain)"/><path d="M20 24H1180V626H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H1166V612H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">A Tale of Two Knights</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">a squire, a mentor, and the distance between them</text><path d="M70 540q260-120 500 0t560 0" fill="#9c7a50" opacity=".45"/><g stroke="#28180f" stroke-width="5" stroke-linejoin="round"><path d="M760 550q10-205 150-245q144 44 157 245" fill="#283b4c"/><circle cx="910" cy="244" r="72" fill="#c28c61"/><path d="M846 230q24-105 70-106q62 9 70 106q-64-54-140 0" fill="#34231b"/><path d="M270 550q18-172 128-204q112 34 130 204" fill="#697880"/><circle cx="398" cy="292" r="59" fill="#bd8358"/><path d="M340 286q13-87 60-90q52 5 59 90q-56-44-119 0" fill="#4a2e20"/></g><path d="M540 522q85-150 168-222" stroke="#842c22" stroke-width="3" stroke-dasharray="9 8" fill="none"/><g font-family="Georgia,serif" fill="#6d4326" font-style="italic" font-size="18"><text x="90" y="160">every knight was once shown a path</text><text x="780" y="150">not every mentor chooses to reveal it</text></g></svg>

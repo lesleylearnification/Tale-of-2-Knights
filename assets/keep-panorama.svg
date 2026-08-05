@@ -1,25 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
-<title id="t">Camelot, measured</title><desc id="d">FORTIFICATIONS · ROUTES · FIVE DAYS TO INVESTITURE</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 606 Q260 585 520 606 T1150 606" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g transform="translate(1040 130)" stroke="#76533a" fill="none" opacity=".72"><circle r="67" stroke-width="2"/><circle r="49"/><path d="M0-78V78M-78 0H78M-54-54L54 54M54-54L-54 54"/><path d="M0-60l10 44-10 16-10-16z" fill="#8c3329" fill-opacity=".18"/></g><g filter="url(#rough)" stroke="#2a1a12" stroke-width="3" fill="none">
-<path d="M105 490L165 235 230 490M175 315h45M145 390h90"/>
-<path d="M245 490V285h120v205M270 285v-58h70v58M260 352h90M285 410h45"/>
-<path d="M390 490L430 200h80l40 290M445 260h52M430 350h80M448 425h48"/>
-<path d="M565 490V310h140v180M595 310v-68h80v68M590 370h90M615 430h46"/>
-<path d="M720 490L770 270h95l48 220M795 270v-70M765 350h110M790 430h65"/>
-<path d="M90 490H930"/>
-<path d="M130 520 Q500 470 900 525" stroke="#8c3329" stroke-width="2" stroke-dasharray="10 8"/>
-</g><g fill="url(#hatch)" opacity=".65"><path d="M108 490L165 235 230 490Z"/><path d="M390 490L430 200h80l40 290Z"/></g>
-<g stroke="#8c3329" fill="none" opacity=".65"><path d="M165 185v320M430 160v345M770 225v280" stroke-dasharray="6 6"/><path d="M80 540h850"/></g><g fill="#76533a" font-family="Georgia,serif" font-style="italic" font-size="15" opacity=".82"><text x="820" y="220">measure the wall twice</text><text x="820" y="245">before trusting the gate</text><text x="72" y="580">a road withheld is still a decision</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">Camelot, measured</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">FORTIFICATIONS · ROUTES · FIVE DAYS TO INVESTITURE</text>
-<text x="970" y="625" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img"><title>The Royal Keep</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="1200" height="650" fill="url(#paper)"/><rect width="1200" height="650" fill="url(#grain)"/><path d="M20 24H1180V626H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H1166V612H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">The Royal Keep</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">Camelot · a kingdom built in layers</text><g filter="url(#shadow)" stroke="#28180f" stroke-width="4" fill="#c49a64" stroke-linejoin="round"><path d="M150 535V305h120v-94h96v94h122v-142h144v142h126v-105h98v105h118v230z"/><path d="M205 305l5-66l55 66M320 211l48-63l45 63M515 163l70-87l75 87M785 200l50-68l48 68M970 305l55-73l55 73" fill="#8c3329"/><path d="M530 535V395q0-65 64-65t64 65v140" fill="#332319"/></g><g stroke="#6d4326" fill="none" stroke-width="2" opacity=".75"><path d="M83 548h1040"/><path d="M130 578q180-46 355 0t355 0t275 0"/><path d="M155 295h970M155 535h970" stroke-dasharray="8 7"/><path d="M94 186l150-104M1050 128l-116 81"/></g><g font-family="Georgia,serif" fill="#6d4326" font-style="italic" font-size="17"><text x="72" y="160">walls built to withstand siege</text><text x="863" y="111">a kingdom may be fortified</text><text x="888" y="138">and still fail its future</text></g></svg>

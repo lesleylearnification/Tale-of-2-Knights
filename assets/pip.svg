@@ -1,18 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="t d">
-<title id="t">Pip</title><desc id="d">fox spirit · collector of inconvenient truths</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 656 Q260 635 520 656 T1150 656" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g transform="translate(0 10)" filter="url(#rough)" stroke="#2a1a12" stroke-width="4" fill="none"><path d="M320 260l-92-105 25 132q-42 42-30 100 18 86 97 104 79-18 97-104 12-58-30-100l25-132z" fill="#aa7a2c" fill-opacity=".09"/>M245 492q75 88 150 0<circle cx="278" cy="350" r="8" fill="#2a1a12"/><circle cx="362" cy="350" r="8" fill="#2a1a12"/><path d="M300 400q20 14 40 0"/><path d="M395 500q110 30 80 100"/></g>
-<g stroke="#8c3329" stroke-width="1.5" opacity=".6" fill="none"><circle cx="320" cy="330" r="154"/><path d="M130 330h380M320 145v370" stroke-dasharray="6 7"/></g>
-<g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="480" y="250">observe posture before promise</text><text x="480" y="280">status is not stewardship</text><text x="80" y="560">study no. 7</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">Pip</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">fox spirit · collector of inconvenient truths</text>
-<text x="470" y="675" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img"><title>Pip</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="700" height="700" fill="url(#paper)"/><rect width="700" height="700" fill="url(#grain)"/><path d="M20 24H680V676H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H666V662H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">Pip</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">fox spirit · questionable innocence</text><g filter="url(#rough)" stroke="#28180f" stroke-width="4" stroke-linejoin="round"><path d="M230 650q15-170 100-216q88 46 101 216" fill="#8c4d2c"/><path d="M230 510q101 45 201 0" fill="none" stroke="#f2dfb7" stroke-width="24"/><path d="M330 202l-72-58l11 94q-38 35-32 90q8 89 93 103q86-14 94-103q6-55-32-90l11-94z" fill="#ad6534"/><path d="M284 295l32 24l-35 19M376 295l-32 24l35 19" fill="#f5dfb6"/><circle cx="295" cy="294" r="9" fill="#17110c"/><circle cx="365" cy="294" r="9" fill="#17110c"/><path d="M330 330l-14 15h28z" fill="#17110c"/></g><g fill="none" stroke="#842c22" stroke-width="1.4" opacity=".55"><circle cx="330" cy="300" r="152"/><path d="M115 300h430M330 130v385" stroke-dasharray="7 8"/></g><g fill="#6d4326" font-family="Georgia,serif" font-style="italic" font-size="15"><text x="468" y="230">study of bearing</text><text x="470" y="255">gesture reveals intent</text><text x="55" y="660">folio characteris</text></g></svg>

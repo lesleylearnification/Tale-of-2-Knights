@@ -1,16 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
-<title id="t">Campfire study</title><desc id="d">TRUST · SILENCE · THE COST OF WITHHELD DIRECTION</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 606 Q260 585 520 606 T1150 606" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g stroke="#2a1a12" stroke-width="4" fill="none" filter="url(#rough)"><circle cx="330" cy="250" r="44"/><path d="M330 294v175M330 345l-95 68M330 350l105 62M330 469l-70 95M330 469l80 95"/><circle cx="730" cy="250" r="44"/><path d="M730 294v175M730 345l-100 70M730 350l100 65M730 469l-70 95M730 469l80 95"/><path d="M500 510q-55-75 0-145q50 60 95-30q55 105-10 175z"/></g><path d="M500 510q-55-75 0-145q50 60 95-30q55 105-10 175z" fill="#aa7a2c" fill-opacity=".22"/><g stroke="#8c3329" fill="none" stroke-width="2"><circle cx="545" cy="425" r="150" stroke-dasharray="8 8"/></g><g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="85" y="180">silence can be an answer</text><text x="85" y="205">but rarely the one hoped for</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">Campfire study</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">TRUST · SILENCE · THE COST OF WITHHELD DIRECTION</text>
-<text x="970" y="625" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img"><title>Campfire</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="1200" height="650" fill="url(#paper)"/><rect width="1200" height="650" fill="url(#grain)"/><path d="M20 24H1180V626H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H1166V612H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">Campfire</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">an honest conversation after dusk</text><rect x="0" y="410" width="1200" height="240" fill="#4b3d31"/><circle cx="600" cy="465" r="95" fill="#c97b2f" opacity=".5"/><path d="M600 515q-75-80 0-175q75 95 0 175" fill="#d59b38" stroke="#28180f" stroke-width="4"/><g stroke="#28180f" stroke-width="5"><path d="M260 560q20-160 125-195q108 38 125 195" fill="#486046"/><circle cx="385" cy="330" r="60" fill="#b77950"/><path d="M720 560q18-160 120-195q105 37 122 195" fill="#697880"/><circle cx="840" cy="330" r="60" fill="#bb825a"/></g><circle cx="980" cy="210" r="70" fill="#f0d99c" opacity=".7"/><g fill="#6d4326" font-family="Georgia,serif" font-style="italic" font-size="17"><text x="90" y="170">some truths arrive quietly</text><text x="845" y="145">the fire keeps no rank</text></g></svg>

@@ -1,18 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="t d">
-<title id="t">Lady Elowen</title><desc id="d">upright gaze · measured compassion</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 656 Q260 635 520 656 T1150 656" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g transform="translate(0 10)" filter="url(#rough)" stroke="#2a1a12" stroke-width="4" fill="none"><path d="M320 185c-64 0-112 58-112 132 0 92 58 166 112 166s112-74 112-166c0-74-48-132-112-132z" fill="#49646b" fill-opacity=".09"/>M175 600q40-130 145-130t145 130z<path d="M225 240q95-96 190 0"/><path d="M230 480q90-40 180 0"/><path d="M190 540q130-80 260 0"/></g>
-<g stroke="#8c3329" stroke-width="1.5" opacity=".6" fill="none"><circle cx="320" cy="330" r="154"/><path d="M130 330h380M320 145v370" stroke-dasharray="6 7"/></g>
-<g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="480" y="250">observe posture before promise</text><text x="480" y="280">status is not stewardship</text><text x="80" y="560">study no. 7</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">Lady Elowen</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">upright gaze · measured compassion</text>
-<text x="470" y="675" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img"><title>Lady Elowen</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="700" height="700" fill="url(#paper)"/><rect width="700" height="700" fill="url(#grain)"/><path d="M20 24H680V676H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H666V662H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">Lady Elowen</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">noble envoy · quietly perceptive</text><g filter="url(#rough)" stroke="#28180f" stroke-width="4" stroke-linejoin="round"><path d="M178 650q21-169 152-208q134 40 154 208" fill="#425447"/><path d="M220 500q108 68 218 0" fill="none" stroke="#b8862d" stroke-width="12"/><path d="M300 452l30 52l30-52" fill="#842c22"/><ellipse cx="330" cy="294" rx="78" ry="102" fill="#b77950"/><path d="M246 292q-6-125 86-132q94 6 82 145q-28-76-86-79q-55 7-82 66" fill="#211a18"/><path d="M244 305q-18 74 16 147M414 305q19 78-18 151" fill="none" stroke="#211a18" stroke-width="26"/></g><g fill="none" stroke="#842c22" stroke-width="1.4" opacity=".55"><circle cx="330" cy="300" r="152"/><path d="M115 300h430M330 130v385" stroke-dasharray="7 8"/></g><g fill="#6d4326" font-family="Georgia,serif" font-style="italic" font-size="15"><text x="468" y="230">study of bearing</text><text x="470" y="255">gesture reveals intent</text><text x="55" y="660">folio characteris</text></g></svg>

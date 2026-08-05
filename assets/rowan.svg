@@ -1,18 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="t d">
-<title id="t">Rowan</title><desc id="d">forge apprentice · soot and precision</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 656 Q260 635 520 656 T1150 656" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g transform="translate(0 10)" filter="url(#rough)" stroke="#2a1a12" stroke-width="4" fill="none"><path d="M320 190c-68 0-120 60-120 142 0 90 58 158 120 158s120-68 120-158c0-82-52-142-120-142z" fill="#526247" fill-opacity=".09"/>M170 600q38-122 150-122t150 122z<path d="M230 250q90-80 180 0"/><path d="M245 330q75 28 150 0"/></g>
-<g stroke="#8c3329" stroke-width="1.5" opacity=".6" fill="none"><circle cx="320" cy="330" r="154"/><path d="M130 330h380M320 145v370" stroke-dasharray="6 7"/></g>
-<g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="480" y="250">observe posture before promise</text><text x="480" y="280">status is not stewardship</text><text x="80" y="560">study no. 7</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">Rowan</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">forge apprentice · soot and precision</text>
-<text x="470" y="675" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img"><title>Rowan</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="700" height="700" fill="url(#paper)"/><rect width="700" height="700" fill="url(#grain)"/><path d="M20 24H680V676H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H666V662H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">Rowan</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">blacksmith apprentice · practical courage</text><g filter="url(#rough)" stroke="#28180f" stroke-width="4" stroke-linejoin="round"><path d="M175 650q23-175 155-204q135 34 155 204" fill="#50372a"/><path d="M220 469h220v154H220z" fill="#8f5b34"/><path d="M250 510l-76 87M410 510l76 87" stroke="#28180f" stroke-width="18"/><ellipse cx="330" cy="292" rx="79" ry="104" fill="#765038"/><path d="M246 275q12-112 86-113q77 5 82 113q-88-54-168 0" fill="#231a16"/><path d="M278 231q50-58 102 0" stroke="#231a16" stroke-width="28"/></g><g fill="none" stroke="#842c22" stroke-width="1.4" opacity=".55"><circle cx="330" cy="300" r="152"/><path d="M115 300h430M330 130v385" stroke-dasharray="7 8"/></g><g fill="#6d4326" font-family="Georgia,serif" font-style="italic" font-size="15"><text x="468" y="230">study of bearing</text><text x="470" y="255">gesture reveals intent</text><text x="55" y="660">folio characteris</text></g></svg>

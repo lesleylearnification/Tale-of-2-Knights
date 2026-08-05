@@ -1,16 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="t d">
-<title id="t">The Royal Stables</title><desc id="d">HORSE ANATOMY · TACK · PATIENCE</desc>
-<defs>
- <filter id="paper"><feTurbulence baseFrequency=".7" numOctaves="3" seed="7" type="fractalNoise" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
- <filter id="rough"><feTurbulence baseFrequency=".025" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6"/></filter>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#76533a" stroke-opacity=".12" stroke-width="1"/></pattern>
- <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><line x1="0" y1="0" x2="0" y2="9" stroke="#76533a" stroke-opacity=".18" stroke-width="2"/></pattern>
-</defs>
-<rect width="100%" height="100%" fill="#efe2c4"/><rect width="100%" height="100%" fill="url(#grid)"/><rect width="100%" height="100%" filter="url(#paper)" opacity=".6"/>
-<path d="M38 42 Q210 18 390 42 T760 42 T1162 42" fill="none" stroke="#76533a" stroke-opacity=".28" stroke-width="2"/>
-<path d="M48 606 Q260 585 520 606 T1150 606" fill="none" stroke="#76533a" stroke-opacity=".25" stroke-width="2"/>
-<g stroke="#2a1a12" stroke-width="4" fill="none" filter="url(#rough)"><path d="M210 390q130-150 340-55l140-80 70 45-80 95q-45 120-185 115H270q-100-10-60-120z"/><path d="M320 495l-30 100M425 500l10 95M560 490l35 100M655 440l80 110"/><path d="M670 285l45-105 65 85"/></g><g stroke="#8c3329" stroke-width="2"><path d="M240 350h500M380 270v280M600 270v280" stroke-dasharray="6 6"/></g><g transform="translate(1040 130)" stroke="#76533a" fill="none" opacity=".72"><circle r="67" stroke-width="2"/><circle r="49"/><path d="M0-78V78M-78 0H78M-54-54L54 54M54-54L-54 54"/><path d="M0-60l10 44-10 16-10-16z" fill="#8c3329" fill-opacity=".18"/></g><g fill="#76533a" font-family="Georgia,serif" font-size="15" font-style="italic"><text x="70" y="570">field note: every room teaches what its keeper values</text></g>
-<text x="48" y="72" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#2a1a12">The Royal Stables</text>
-<text x="49" y="98" font-family="Georgia,serif" font-size="15" letter-spacing="2" fill="#8c3329">HORSE ANATOMY · TACK · PATIENCE</text>
-<text x="970" y="625" font-family="Georgia,serif" font-size="13" fill="#76533a">CODex of the Royal Keep · folio I</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img"><title>The Stables</title><defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb7"/><stop offset="1" stop-color="#e5c998"/></linearGradient>
+ <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+ <pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6d4326" stroke-opacity=".07"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".25"/></filter>
+ </defs><rect width="1200" height="650" fill="url(#paper)"/><rect width="1200" height="650" fill="url(#grain)"/><path d="M20 24H1180V626H20Z" fill="none" stroke="#6d4326" stroke-width="2" opacity=".45"/><path d="M34 38H1166V612H34Z" fill="none" stroke="#6d4326" stroke-width="1" opacity=".25"/><text x="48" y="70" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#28180f">The Stables</text><text x="49" y="98" font-family="Georgia,serif" font-size="14" letter-spacing="2" fill="#842c22">care · readiness · responsibility</text><g filter="url(#rough)" stroke="#28180f" stroke-width="4" stroke-linejoin="round"><path d="M105 515V245h990v270" fill="#9f7046"/><path d="M90 245l510-145l510 145" fill="#7b261d"/><path d="M210 515V320h210v195M500 515V320h210v195M790 515V320h210v195" fill="#ead9b7"/><path d="M260 430q50-105 110 0q-10 75-55 75t-55-75M550 430q50-105 110 0q-10 75-55 75t-55-75M840 430q50-105 110 0q-10 75-55 75t-55-75" fill="#6b4a32"/></g><g fill="#6d4326" font-family="Georgia,serif" font-size="16" font-style="italic"><text x="78" y="600">field study · royal keep</text><text x="855" y="590">what does this place teach?</text></g></svg>
